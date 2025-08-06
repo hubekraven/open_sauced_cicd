@@ -31,11 +31,5 @@ jobs:
       - name: "📦 build Storybook"
         run: npx build-storybook
 
-      - name: "🚀 deploy static"
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_branch: storybook-static
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./storybook-static
-          commit_message: ${{ github.event.head_commit.message }}
-          enable_jekyll: false
+      - name: "🛑 Simulate deploy static"
+        run: echo "🚀 [Simulation] Le build Storybook est prêt à être publié, mais ce workflow ne publie rien."

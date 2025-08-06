@@ -63,8 +63,8 @@
   "devDependencies": {
     "@nabla/vite-plugin-eslint": "^1.4.0",
     "@open-sauced/check-engines": "^1.2.0",
+    "@frostoven/squoosh-cli": "^0.9.1",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "@squoosh/cli": "^0.7.2",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
     "@storybook/addon-storysource": "^6.4.22",
